@@ -3,7 +3,7 @@ function comprar () {
     let qtd = parseInt (document.getElementById('qtd').value);
 
      if (isNaN(qtd) || qtd <= 0) {
-        alert('Por favor, insira uma quantidade válida.');
+        alert('Por favor, nos insira uma quantidade válida.');
         return;
     }
     
